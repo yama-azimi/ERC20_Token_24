@@ -31,7 +31,7 @@ interface IERC20 {
 
 // Ownable contract
 contract Ownable {
-    address private _owner;
+    address private _owner; //address of the owner of the contract
 
     event OwnershipTransferred(
         address indexed previousOwner,
